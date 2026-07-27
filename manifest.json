@@ -1,0 +1,21 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.liquid-chrome",
+  "name": "Liquid Chrome",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "A flowing mercury-like ripple across the frame with a soft metallic sheen — a living, liquid-chrome shimmer.",
+  "author": "HereLiesAz",
+  "targetApps": ["com.hereliesaz.guillotine"],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/liquid-chrome.fs",
+      "ui": "ui/panel.json",
+      "params": { "format": "isf" },
+      "tags": ["shader", "distortion", "chrome", "liquid", "metallic", "one-click"]
+    }
+  ]
+}
